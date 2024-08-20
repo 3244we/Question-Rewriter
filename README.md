@@ -1,10 +1,10 @@
 # Putting People in LLMs’ Shoes: Generating Better Answers via Question Rewriter
 
-This includes the code for generating data and training the rewriter using DPO. The DPO training code is derived from https://github.com/eric-mitchell/direct-preference-optimization with minor modifications. The model used for making judgments on TruthfulQA will be available for download after the publication of our paper, hence the code for generating data and testing the rewriter on TruthfulQA is temporarily unavailable. The version of cuda that we use is 11.8.
-
 <p align="center">
 <img src="https://github.com/3244we/Question-Rewriter/blob/master/img/pps_new.png" width="800">
 </p>
+
+This includes the code for generating data and training the rewriter using DPO. The DPO training code is derived from https://github.com/eric-mitchell/direct-preference-optimization with minor modifications. The model used for making judgments on TruthfulQA will be available for download after the publication of our paper, hence the code for generating data and testing the rewriter on TruthfulQA is temporarily unavailable. The version of cuda that we use is 11.8.
 
 ## Installation
 
