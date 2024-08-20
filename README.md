@@ -2,6 +2,8 @@
 
 This includes the code for generating data and training the rewriter using DPO. The DPO training code is derived from https://github.com/eric-mitchell/direct-preference-optimization with minor modifications. The model used for making judgments on TruthfulQA will be available for download after the publication of our paper, hence the code for generating data and testing the rewriter on TruthfulQA is temporarily unavailable. The version of cuda that we use is 11.8.
 
+![Pipeline](https://github.com/3244we/Question-Rewriter/img/pps_new.pdf "Pipeline")
+
 ## Installation
 
 Follow these steps to install the necessary dependencies and get the project up and running.
