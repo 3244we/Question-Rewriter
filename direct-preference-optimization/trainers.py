@@ -164,7 +164,7 @@ class BasicTrainer(object):
         self.run_dir = run_dir
         self.n_epochs = config.n_epochs
 
-        hf_token = "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"
+        hf_token = "???"
         tokenizer_name_or_path = config.model.tokenizer_name_or_path or config.model.name_or_path
         #tokenizer_name_or_path = config.model.name_or_path
         rank0_print(f'Loading tokenizer {tokenizer_name_or_path}')
