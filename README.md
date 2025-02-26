@@ -77,6 +77,10 @@ Training and testing rewriter on K-QA.
 
 ## TruthfulQA
 
+The model used for the evaluation is available from huggingface :
+https://huggingface.co/3244we/Llama-3-8B-Instruct-Truthfulqa-Truth-Judge
+https://huggingface.co/3244we/Llama-3-8B-Instruct-Truthfulqa-Info-Judge
+
 Training and testing rewriter on TruthfulQA.
 
 1. **Generate original answers and scores. The results are located in data/original/. Each model requires 17 GB of GPU memory.**
